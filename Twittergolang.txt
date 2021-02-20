@@ -1,0 +1,51 @@
+HitHab
+---------------------
+echo "# twittergolang" >> README.md
+git init
+git add README.md
+(git config --global user.email "you@example.com")
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pablo6911/twittergolang.git
+git push -u origin main  (git push origin master -f)
+
+git remote add origin https://github.com/pablo6911/twittergolang.git
+git branch -M main
+git push -u origin main
+
+---------------
+Heroku
+
+$ heroku login
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a twittergolangh
+$ git status
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+$ heroku git:remote -a twittergolangh
+-----------------------
+conexion
+
+mongodb+srv://pablo:<password>@twittergolang.cocga.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+mongodb+srv://pablo:1234@twittergolang.cocga.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+-----------
+
+-----------------
+guardar y subir las cosas
+git add .
+git status
+git commit -m "nombre je:registro usuario"
+git push origin master
+
+-------------------------
+Conpilar
+go build main.go
+go run main.go
+
+dir main.*
