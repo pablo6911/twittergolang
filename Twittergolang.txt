@@ -51,17 +51,19 @@ dir
 guardar y subir las cosas
 
 $ git status
-$ git .
 $ git add .
 $ git status
 $ git commit -m "otro commit"
 
 $ git push origin master
 $ git push heroku master
+https://twittergolangh.herokuapp.com/
 -------------------------
 Conpilar
 go build main.go
 dir main.*
 go run main.go
+
+
 
 
