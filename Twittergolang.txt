@@ -18,12 +18,12 @@ Heroku
 
 $ heroku login
 
-$ cd my-project/
-$ git init
 $ heroku git:remote -a twittergolangh
-$ git status
+git push heroku master
+$ git .
 $ git add .
-$ git commit -am "make it better"
+$ git status
+$ git commit -m "otro commit"
 $ git push heroku master
 
 $ heroku git:remote -a twittergolangh
@@ -35,17 +35,33 @@ mongodb+srv://pablo:<password>@twittergolang.cocga.mongodb.net/myFirstDatabase?r
 mongodb+srv://pablo:1234@twittergolang.cocga.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 -----------
+Dependencias
+
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/mongo/options
+go get go.mongodb.org/mongo-driver/bson
+go get go.mongodb.org/mongo-driver/bson/primitive
+go get golang.org/x/crypto/bcrypt
+go get githab.com/gorilla/mux
+go get githab.com/rs/cors
+go get githab.com/dgrijalva/jwt-go
+dir
 
 -----------------
 guardar y subir las cosas
-git add .
-git status
-git commit -m "nombre je:registro usuario"
-git push origin master
 
+$ git status
+$ git .
+$ git add .
+$ git status
+$ git commit -m "otro commit"
+
+$ git push origin master
+$ git push heroku master
 -------------------------
 Conpilar
 go build main.go
+dir main.*
 go run main.go
 
-dir main.*
+
