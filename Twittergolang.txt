@@ -61,8 +61,10 @@ https://twittergolangh.herokuapp.com/
 -------------------------
 Conpilar
 go build main.go
-dir main.*
+-----
+combrovamos si tenemos un error y conectamos con la BD
 go run main.go
+dir main.*
 
 
 
